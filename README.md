@@ -1,4 +1,4 @@
-# Github.io Personal Website
+# Samuel Zhang Personal Website
 
 ### Legal
 
