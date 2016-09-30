@@ -1,4 +1,4 @@
-# Samuel Zhang Personal Website
+# Personal Website
 
 ### Legal
 
