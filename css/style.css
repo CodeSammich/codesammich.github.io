@@ -25,8 +25,8 @@ p
     }
 
 /* start all section */
-#service, #divider, #about, #team, #newsletter,
- #pricing, #portfolio, #client, #contact
+#education, #divider, #experience, #projects, #newsletter,
+ #skills, #contact, #client, #contact
     {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -78,7 +78,7 @@ p
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 /* end navigation */
 
-/* start home */        
+/* start home */
 #home
 	{
       padding-top: 65px;
@@ -104,7 +104,7 @@ p
   display: block;
 }
 .flexslider .slides > li {
-  display: none;  
+  display: none;
   padding: 0;
   position: relative;
   -webkit-backface-visibility: hidden;
@@ -159,25 +159,25 @@ p
 
 /* end home */
 
-/* start service */
-#service .media
+/* start education */
+#education .media
     {
         padding: 10px;
     }
-#service .media .fa
+#education .media .fa
     {
         color: #202020;
         font-size: 40px;
         margin-right: 20px;
     }
-#service .media .media-heading
+#education .media .media-heading
     {
         border-bottom: 2px solid #202020;
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
     }
-/* end service */
+/* end education */
 
 /* start divider */
 #divider
@@ -201,78 +201,78 @@ p
     }
 /* end divider */
 
-/* start about */
-#about h3
+/* start experience */
+#experience h3
     {
         color: #93ca3a;
         font-size: 40px;
         padding-bottom: 10px;
     }
-#about h4
+#experience h4
     {
         padding-bottom: 10px;
     }
-#about .progress
+#experience .progress
     {
         border-radius: 4px;
         background: #ffffff;
         height: 6px;
     }
-#about .progress .progress-bar-danger
+#experience .progress .progress-bar-danger
     {
         background: #93ca3a;
     }
-#about .text-top
+#experience .text-top
     {
         padding-top: 50px;
     }
-#about span
+#experience span
     {
         display: block;
         padding-bottom: 10px;
     }
-#about small
+#experience small
     {
         font-weight: bold;
         padding-left: 200px;
     }
-/* end about */
+/* end experience */
 
-/* start team */
-#team
+/* start projects */
+#projects
     {
         border-top: 1px solid #f6f6f6;
         border-bottom: 1px solid #f6f6f6;
         text-align: center;
     }
-#team h2
+#projects h2
     {
         padding-bottom: 30px;
     }
-#team img
+#projects img
     {
         border: 1px solid #f6f6f6;
         display: inline-block;
         padding: 10px;
         transition: all 0.4s ease-in;
     }
-#team img:hover
+#projects img:hover
     {
         opacity: 0.4;
         cursor: pointer;
     }
-#team h3
+#projects h3
     {
         color: #93ca3a;
         padding-bottom: 10px;
     }
-#team h4
+#projects h4
     {
         font-size: 14px;
         padding-top: 20px;
         line-height: 0px;
     }
-/* end team */
+/* end projects */
 
 /* start newsletter */
 #newsletter
@@ -322,63 +322,63 @@ p
 }
 /* end newsletter */
 
-/* start pricing */
-#pricing
+/* start skills */
+#skills
     {
         border-bottom: 1px solid #f6f6f6;
     }
-#pricing .col-md-3,
-#pricing .col-sm-6
+#skills .col-md-3,
+#skills .col-sm-6
     {
         padding: 0;
         margin: 0;
     }
-#pricing .plan
+#skills .plan
   {
     border: 1px solid #f6f6f6;
     margin-top: 100px;
     transition: all 0.4s ease-in;
     padding: 40px;
   }
-#pricing .plan_one
+#skills .plan_one
  {
     margin-top: 60px;
  }
-#pricing .plan_two
+#skills .plan_two
  {
     margin-top: 80px;
  }
-#pricing .plan_three
+#skills .plan_three
  {
     margin-top: 40px;
  }
-#pricing .plan_four
+#skills .plan_four
  {
     margin-top: 0px;
  }
-#pricing .plan:hover
+#skills .plan:hover
   {
     background: #202020;
     color: #ffffff;
     transform: scale(1.0);
   }
-#pricing .plan .plan_title
+#skills .plan .plan_title
   {
     border-bottom: 1px solid #f6f6f6;
     color: #9bc848;
     font-size: 30px;
     padding: 20px;
   }
-#pricing .plan ul
+#skills .plan ul
   {
     padding: 0;
   }
-#pricing .plan ul li
+#skills .plan ul li
   {
     display: block;
     padding: 20px 0 20px 0;
   }
-#pricing .plan .btn
+#skills .plan .btn
   {
     background: #93ca3a;
     border: none;
@@ -390,25 +390,25 @@ p
     margin-bottom: 20px;
     transition: all 0.4s ease-in-out;
   }
-#pricing .plan .btn:hover
+#skills .plan .btn:hover
   {
     background: #FFFFFF;
     color: #66AF33;
   }
-/* end pricing */
+/* end skills */
 
-/* start portfolio */
-#portfolio h2
+/* start contact */
+#contact h2
     {
         padding-bottom: 30px;
     }
-#portfolio .portfolio-thumb
+#contact .contact-thumb
     {
         overflow: hidden;
         margin: 0;
         position: relative;
     }
-#portfolio .portfolio-thumb .portfolio-overlay
+#contact .contact-thumb .contact-overlay
     {
         background: #333;
         color: #ffffff;
@@ -424,12 +424,12 @@ p
         opacity: 0;
         transition: all 0.4s ease-in-out;
     }
-#portfolio .portfolio-thumb:hover .portfolio-overlay
+#contact .contact-thumb:hover .contact-overlay
     {
         opacity: 0.9;
         transform: scale(1.1);
     }
-#portfolio .portfolio-thumb .portfolio-overlay .fa
+#contact .contact-thumb .contact-overlay .fa
     {
         border: 1px solid #ffffff;
         border-radius: 50%;
@@ -496,7 +496,7 @@ p
     display: block;
     height: auto;
 }
-/* end portfolio */
+/* end contact */
 
 /* start contact */
 #contact
@@ -626,8 +626,8 @@ footer .social-icon
     }
     .flexslider h1 { font-size: 26px; }
     .flexslider h2 { font-size: 18px; }
-    .templatemo-slider-btn { 
-        margin-top: 10px; 
+    .templatemo-slider-btn {
+        margin-top: 10px;
         width: 180px;
         height: 40px;
         padding-top: 8px;
@@ -636,24 +636,24 @@ footer .social-icon
 /* end templatemo 768 media quires */
 
 /* start templatemo 600 media quires */
-@media only screen and ( max-width: 640px ) {   
+@media only screen and ( max-width: 640px ) {
     .flexslider h1 { font-size: 20px; }
     .flexslider h2 { font-size: 14px; }
     .templatemo-slider-btn {
         width: auto;
         height: auto;
         padding: 10px 20px;
-        margin-top: 10px; 
+        margin-top: 10px;
     }
 }
 /* end templatemo 600 media quires */
 
 /* start templatemo 360 media quires */
 @media only screen and ( max-width: 360px ) {
-    #team .col-md-4
+    #projects .col-md-4
         {
             padding-top: 40px;
         }
-    
+
 }
 /* end templatemo 360 media quires */
