@@ -25,14 +25,20 @@ p
     }
 
 /* start all section */
-#frameworks, #divider, #experience, #projects, #newsletter,
+#divider, #frameworks, #projects, #newsletter,
  #skills, #contact, #client, #contact
     {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         position: relative;
     }
 /* end all section */
+#frameworks
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
 
 /* start nagivation */
 .navbar-default
@@ -162,7 +168,7 @@ p
 /* start frameworks */
 #frameworks .media
     {
-        padding: 10px;
+        padding: 20px;
     }
 #frameworks .media .fa
     {
@@ -201,42 +207,42 @@ p
     }
 /* end divider */
 
-/* start experience */
-#experience h3
+/* start frameworks */
+#frameworks h3
     {
         color: #93ca3a;
         font-size: 40px;
         padding-bottom: 10px;
     }
-#experience h4
+#frameworks h4
     {
         padding-bottom: 10px;
     }
-#experience .progress
+#frameworks .progress
     {
         border-radius: 4px;
         background: #ffffff;
         height: 6px;
     }
-#experience .progress .progress-bar-danger
+#frameworks .progress .progress-bar-danger
     {
         background: #93ca3a;
     }
-#experience .text-top
+#frameworks .text-top
     {
-        padding-top: 50px;
+        padding-top: 100px;
     }
-#experience span
+#frameworks span
     {
         display: block;
         padding-bottom: 10px;
     }
-#experience small
+#frameworks small
     {
         font-weight: bold;
         padding-left: 200px;
     }
-/* end experience */
+/* end frameworks */
 
 /* start projects */
 #projects
