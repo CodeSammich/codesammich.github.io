@@ -25,7 +25,7 @@ p
     }
 
 /* start all section */
-#education, #divider, #experience, #projects, #newsletter,
+#frameworks, #divider, #experience, #projects, #newsletter,
  #skills, #contact, #client, #contact
     {
         padding-top: 100px;
@@ -159,25 +159,25 @@ p
 
 /* end home */
 
-/* start education */
-#education .media
+/* start frameworks */
+#frameworks .media
     {
         padding: 10px;
     }
-#education .media .fa
+#frameworks .media .fa
     {
         color: #202020;
         font-size: 40px;
         margin-right: 20px;
     }
-#education .media .media-heading
+#frameworks .media .media-heading
     {
         border-bottom: 2px solid #202020;
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
     }
-/* end education */
+/* end frameworks */
 
 /* start divider */
 #divider
