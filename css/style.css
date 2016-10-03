@@ -219,12 +219,13 @@ p
 }
 #skills span
 {
+    font-weight: bold;
     display: block;
     padding-bottom: 3%;
 }
 #skills small
 {
-    font-weight: bold;
+    font-weight: normal;
     padding-left: 5%;
 }
 /* end skills */
