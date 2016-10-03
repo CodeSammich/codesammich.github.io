@@ -191,8 +191,8 @@ p
 }
 #about img
 {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 300px;
+    max-width: 300px;
     width: 100%;
     height: auto;
 }
@@ -236,7 +236,11 @@ p
     display: table;
     position: relative;
     padding-top: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
+}
+#frameworks a
+{
+    text-decoration: none;
 }
 #frameworks img
 {
@@ -245,46 +249,21 @@ p
     width: 22%;
     height: auto;
 
-    margin: 2%px;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
 }
 #frameworks img:hover
 {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 /* end frameworks */
-
-/* start divider */
-#divider
-{
-    background: url('../images/divider-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-}
-#divider h2
-{
-    font-size: 40px;
-}
-#divider strong
-{
-    color: #93ca3a;
-}
-#divider h3
-{
-    padding-bottom: 30px;
-}
-/* end divider */
-
 
 /* start projects */
 #projects
 {
-    border-top: 1px solid #f6f6f6;
-    border-bottom: 1px solid #f6f6f6;
-    text-align: center;
+    padding-top: 5%;
+    text-align: left;
 }
 #projects h1
 {
@@ -314,54 +293,6 @@ p
     line-height: 0px;
 }
 /* end projects */
-
-/* start newsletter */
-#newsletter
-{
-    background: url('../images/newsletter-bg.jpg') center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-#newsletter p
-{
-    padding-bottom: 30px;
-}
-#newsletter .btn
-{
-    background: transparent;
-    border-radius: 0px;
-    color: #ffffff;
-    margin-top: 40px;
-}
-#newsletter .form-control
-{
-    background: transparent;
-    border-color: #f2f2f2;
-    border-radius: 0px;
-    color: #ffffff;
-    height: 50px;
-}
-#newsletter input[type="submit"]
-{
-    background: #93ca3a;
-    border: 2px solid transparent;
-    color: #ffffff;
-}
-#newsletter .form-control::-moz-placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-#newsletter .form-control:-ms-input-placeholder {
-    color: #ffffff;
-}
-#newsletter .form-control::-webkit-input-placeholder {
-    color: #ffffff;
-}
-/* end newsletter */
 
 /* start contact */
 #contact h2
@@ -413,7 +344,8 @@ p
     width: 100%;
     margin: 0 0 24px 0;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    padding-top: 2%;
 }
 .filter-wrapper li {
     display: inline-block;
