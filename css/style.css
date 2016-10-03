@@ -244,6 +244,15 @@ p
     padding-right: 2%;
     width: 22%;
     height: auto;
+
+    margin: 2%px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+#frameworks img:hover
+{
+    margin-bottom: 5%;
 }
 /* end frameworks */
 
@@ -277,9 +286,9 @@ p
     border-bottom: 1px solid #f6f6f6;
     text-align: center;
 }
-#projects h2
+#projects h1
 {
-    padding-bottom: 30px;
+    padding-bottom: 20%;
 }
 #projects img
 {
@@ -353,71 +362,6 @@ p
     color: #ffffff;
 }
 /* end newsletter */
-
-/* #skills .plan
-{
-    border: 1px solid #f6f6f6;
-    margin-top: 100px;
-    transition: all 0.4s ease-in;
-    padding: 40px;
-}
-#skills .plan_one
-{
-    margin-top: 60px;
-}
-#skills .plan_two
-{
-    margin-top: 80px;
-}
-#skills .plan_three
-{
-    margin-top: 40px;
-}
-#skills .plan_four
-{
-    margin-top: 0px;
-}
-#skills .plan:hover
-{
-    background: #202020;
-    color: #ffffff;
-    transform: scale(1.0);
-}
-#skills .plan .plan_title
-{
-    border-bottom: 1px solid #f6f6f6;
-    color: #9bc848;
-    font-size: 30px;
-    padding: 20px;
-}
-#skills .plan ul
-{
-    padding: 0;
-}
-#skills .plan ul li
-{
-    display: block;
-    padding: 20px 0 20px 0;
-}
-#skills .plan .btn
-{
-    background: #93ca3a;
-    border: none;
-    border-radius: 2px;
-    font-weight: bold;
-    font-size: 12px;
-    width: 120px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    transition: all 0.4s ease-in-out;
-}
-#skills .plan .btn:hover
-{
-    background: #FFFFFF;
-    color: #66AF33;
-}
-*/
-/* end skills */
 
 /* start contact */
 #contact h2
