@@ -40,8 +40,8 @@ p
 }
 
 /* start all section */
-#home, #about, #skills, #frameworks, #projects, #newsletter,
-#contact, #client, #contact, #divider
+#home, #about, #skills, #frameworks, #projects,
+#contact, #client
 {
     display: inline-block;
     width: 100%;
@@ -51,6 +51,28 @@ p
     position: relative;
     border: transparent;
 }
+/* mobile */
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)  {
+    #projects .iso-box {
+        width: 100%;
+    }
+}
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape)  {
+    #projects .iso-box {
+        width: 50%;
+    }
+}
+
 /* end all section */
 
 /* start nagivation */
@@ -393,7 +415,7 @@ p
     float: left;
     overflow: hidden;
     margin-bottom: 20px;
-    width: 30%;
+    width: 33%;
     height: auto;
 }
 .iso-box > a {
@@ -566,6 +588,5 @@ footer .social-icon
     {
         padding-top: 20%px;
     }
-
 }
 /* end templatemo 360 media quires */
