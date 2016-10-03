@@ -27,7 +27,7 @@ h1, h2, h3, h4
 p
 {
     display: inline-block;
-    line-height: 26px;
+    line-height: 35px;
     padding-top: 5%;
 }
 
@@ -44,10 +44,6 @@ p
     border: transparent;
 }
 /* end all section */
-#frameworks
-{
-    position: relative;
-}
 
 /* start nagivation */
 .navbar-default
@@ -206,32 +202,27 @@ p
 /* end skills */
 
 /* start frameworks */
+#frameworks
+{
+    display: table;
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
 #frameworks .media
 {
     padding-top: 0%;
     display: inline-block;
-    width: 100%;
+    max-width: 90%;
+    max-height: 100%;
     position: relative;
 }
 #framworks .img
 {
-    padding-top: 10%;
-    display: block;
-    position: abosolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-}
-#frameworks .media .fa
-{
-    color: #202020;
-    font-size: 40px;
-    margin-right: 20px;
-}
-#frameworks .media .media-heading
-{
-    border-bottom: 2px solid #202020;
-    font-weight: 600;
-    font-size: 20px;
-    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+    max-width: 30%;
+    max-height: 30%;
 }
 /* end frameworks */
 
@@ -593,6 +584,7 @@ footer .social-icon
 {
     display: inline-block;
     list-style: none;
+    padding-right: 10%;
 }
 .social-icon li a
 {
