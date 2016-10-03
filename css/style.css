@@ -304,9 +304,15 @@ p
 /* end projects */
 
 /* start contact */
+#contact
+{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 #contact h2
 {
-    padding-bottom: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 #contact .contact-thumb
 {
