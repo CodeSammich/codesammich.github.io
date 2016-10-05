@@ -35,6 +35,14 @@
     <!-- FontAwesome fonts referenced using <i>> -->
     <script src="https://use.fontawesome.com/132ba586d8.js"></script>
 
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   </head>
   <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
@@ -54,6 +62,7 @@
             <li><a href="#about" class="smoothScroll">ABOUT</a></li>
 	    <li><a href="#skills" class="smoothScroll">SKILLS</a></li>
 	    <li><a href="#projects" class="smoothScroll">PROJECTS</a></li>
+            <li><a href="#resume" class="smoothScroll">RESUME</a></li>
 	    <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
 	  </ul>
 	</div>
@@ -70,18 +79,16 @@
 	      <img src="images/slider/1.jpg" alt="Slide 1">
 	      <div class="slider-caption">
 		<div class="templatemo_homewrapper">
-		  <h1 class="wow fadeInDown" data-wow-delay="2000">
-                    Hi! <br>
-                  </h1>
-                  <br>
 		  <h2 class="wow fadeInDown" data-wow-delay="2000">
-		    <span>
+                    <span>
                       Welcome to my website. <br>
-                      Feel free to look around!
+                      Feel free to look around.
                     </span>
 		  </h2>
                   <br>
-		  <a href="#about" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">About me</a>
+                  <span>
+		    <a href="#about" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">About me</a>
+                  </span>
 		</div>
 	      </div>
 	    </li>
@@ -89,13 +96,15 @@
 	      <img src="images/slider/2.jpg" alt="Slide 2">
 	      <div class="slider-caption">
 		<div class="templatemo_homewrapper">
-		  <h1 class="wow fadeInDown" data-wow-delay="2000">
+		  <h2 class="wow fadeInDown" data-wow-delay="2000">
                     <span>
                       Check out some of my projects!
                     </span>
-		  </h1>
+		  </h2>
                   <br>
-		  <a href="#projects" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">Projects</a>
+                  <span>
+		    <a href="#projects" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">Projects</a>
+                  </span>
 		</div>
 	      </div>
 	    </li>
@@ -115,15 +124,31 @@
 
             <div class"col-md-12 wow fadeInLeft" data-wow-delay="0.5s">
               <p>
-                Hi! My name is <b>Samuel Zhang</b> and I am currently an undergraduate freshman majoring in computer science at the <b> Georgia Institute of Technology </b> in <b>Atlanta, Georgia</b>. I am passionate about machine learning and am currently a member of the Georgia Tech Web Development Club in order to gain a better understanding of the entire development process. <br> </p> <p>
-                In June 2016, I graduated from <b>Stuyvesant High School</b>, a specialized STEM high school in <b>New York City</b>. During my time there, I led multiple teams in building software projects, including a student book marketplace. <br> </p> <p>
-                In my spare time, I enjoy singing classical music, playing chess, and practicing hapkido, a Korean martial art.
+                Hi! My name is <b>Samuel Zhang</b> and I am currently an undergraduate freshman majoring in computer science at the <b> Georgia Institute of Technology </b> in <b>Atlanta, Georgia</b>. I graduated from <b>Stuyvesant High School</b>, a specialized STEM high school in <b>New York, New York</b>. In my spare time, I enjoy singing classical music, playing chess, and practicing hapkido, a Korean martial art.
+                <br> </p> <p>
+                In high school, I led multiple teams in building software projects from scratch, including a student book marketplace. Now, in college, I hope to pursue my passion for machine learning and mobile development. As a member of <b>gt-webdev</b>, the Georgia Tech web development club, I aspire to apply web development techniques to improve both frontend and backend efficiency, especially on mobile devices. <br> </p> <p>
+                In the coming years, I aim to gain more experience through internships in the software industry. I am eager to learn about professional techniques, project workflow, and corporate coding standards.
               </p>
             </div>
           </div>
 
           <div class="col-md-4 wow fadeInRight" data-wow-delay="0.5s">
-            <img src="images/samuel.png" alt="samuelzhang">
+            <div id="resume">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/samuel.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Hi, I'm Samuel<i class="material-icons right">more_vert</i></span>
+                  <!--                  <p><a href="resume/Zhang_Samuel_Georgia_Institute_of_Technology_Resume.pdf" target="_blank">More about me</a></p> -->
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">My Resume<i class="material-icons right">close</i></span>
+                  <p> I am currently looking for an internship for summer 2017. <br>
+                  <p><a href="resume/Zhang_Samuel_Georgia_Institute_of_Technology_Resume.pdf" target="_blank">Here is a PDF of my resume. </a></p>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -305,7 +330,7 @@
                         Featured project at
                         <a href="https://cstuy.org/past-programs/ship"
                            target="_blank">
-                           <b> CSTUY </b> <i> SHIP 2014 </i>
+                          <b> CSTUY </b> <i> SHIP 2014 </i>
                         </a>
                         at St. Joseph's College <p>
 		    </div>
@@ -348,9 +373,9 @@
               If you have any questions, feel free to reach me at these locations.
               I will get back to you as soon as possible. <br>
               Thanks for visiting!
-              </p>
+            </p>
           </div>
-          <div class="col-md-3 col-sm-4 wow fadeIn" data-wow-delay="0.9s">
+          <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.9s">
 	    <address>
 	      <p>
                 <i class="fa fa-phone too-icon"></i>
@@ -358,10 +383,26 @@
               </p>
 	      <p>
                 <i class="fa fa-envelope-o too-icon"></i>
-                szhang460@gatech.edu
+                <a href="mailto:szhang460@gatech.edu" target="_top">
+                  szhang460@gatech.edu
+                </a>
               </p>
 	    </address>
           </div>
+          <!--           <div class="col-md-3 wow fadeIn"
+                         data-wow-delay="0.9s">
+                         <div class="slider-caption">
+                           <a href="resume/Zhang_Samuel_Georgia_Institute_of_Technology_Resume.pdf"
+                              target="_blank"
+                              class="smoothScroll btn btn-default wow fadeInDown"
+                              data-wow-delay="2000">
+                             <span>
+                               Resume
+                             </span>
+                           </a>
+                         </div>
+          </div>
+          -->
         </div>
       </div>
     </div>
@@ -416,7 +457,11 @@
 
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!--    <script src="js/jquery.js"></script>  VERSION 1.1.2 -->
+    <!-- Only need one Jquery file at a time>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <!-- isotope -->

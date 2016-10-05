@@ -58,6 +58,9 @@ p
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait)  {
+    #home .flexslider h2 {
+        font-size: 28px;
+    }
     #projects .iso-box {
         width: 100%;
     }
@@ -74,6 +77,9 @@ p
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape)  {
+    #home span {
+        font-size: 400px;
+    }
     #projects .iso-box {
         width: 50%;
     }
@@ -133,7 +139,9 @@ p
 {
     padding-top: 65px;
 }
-
+#home span {
+    font-size: 80%;
+}
 .flexslider {
     margin: 0 0 60px;
     background: #fff;
@@ -197,7 +205,7 @@ p
     margin: 40px 0 0 0;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    height: 50px;
+    height: auto;
     width: 250px;
     padding: 12px 10px 10px 10px;
 }
@@ -297,7 +305,7 @@ p
 #projects h1
 {
     display: inline;
-    font-weight: bold;
+    font-weight: normal;
     padding: 0;
     margin: 0;
     top: 0; bottom: 0; right: 0; left: 0;
@@ -330,7 +338,8 @@ p
 }
 #projects h3
 {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
     padding-top: 20px;
     line-height: 0px;
 }
