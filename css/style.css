@@ -61,6 +61,12 @@ p
     #projects .iso-box {
         width: 100%;
     }
+    #frameworks img {
+        width: 50%;
+        padding-left: 2%;
+        padding-right: 2%;
+        height: auto;
+    }
 }
 /* Landscape */
 @media only screen
@@ -71,8 +77,8 @@ p
     #projects .iso-box {
         width: 50%;
     }
-    #frameworks img {
-
+    #frameworks col-md-12 {
+        width: 25%%;
     }
 }
 
