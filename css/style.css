@@ -318,18 +318,18 @@ p
 #projects img
 {
     position: relative;
-    width:  250px;
+    width:  100%;
     height: 250px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
 
-    padding-bottom: 10%;
+/*    padding-bottom: 10%;
     border-radius: 75%;
 
     padding: 1%;
     display: inline-block;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in; */
 }
 #projects img:hover
 {
@@ -343,6 +343,7 @@ p
     padding-top: 20px;
     line-height: 0px;
 }
+
 /* end projects */
 
 /* start contact */
